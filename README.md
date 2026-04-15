@@ -58,7 +58,6 @@
 
 ## 📱 App Previews (UI Showcase)
 
-*(Silakan tambahkan tangkapan layar atau GIF aplikasi kamu di sini)*
 
 | Buyer Dashboard | AI Scanner Mode | Big Data Analytics | Seller Dashboard |
 |:---:|:---:|:---:|:---:|
