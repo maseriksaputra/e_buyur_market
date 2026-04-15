@@ -1,0 +1,99 @@
+name: e_buyur_market_flutter_5
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  camera: ^0.11.0
+  camera_web: ^0.3.2
+  image_picker: ^1.1.2
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  path_provider: ^2.1.3
+  shared_preferences: ^2.5.3
+  carousel_slider: ^5.0.0
+  intl: ^0.19.0
+  dio: ^5.9.0
+  flutter_dotenv: ^5.2.1
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  fl_chart: ^0.68.0
+  http: ^1.2.2
+  url_strategy: ^0.2.0
+  file_picker: ^8.0.0
+  flutter_secure_storage: ^9.2.2
+
+  # Maps/Location
+  google_maps_flutter: ^2.6.0
+  geocoding: ^2.1.0
+  geolocator: ^10.1.0
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.1
+
+  # Machine Learning
+  tflite_flutter: ^0.11.0
+  image: ^4.2.0
+
+  url_launcher: ^6.3.0
+  webview_flutter: ^4.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.1   # tool-nya di dev_dependencies (benar)
+
+dependency_overrides:
+  isar_flutter_libs:
+    path: patches/isar_flutter_libs
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/ml/ebuyur_multitask_fp16.tflite
+    - assets/ml/best_float16.tflite
+    - assets/ml/labels_fruit.txt
+    - assets/ml/label_to_index.json
+    - assets/ml/yolo_config.json
+    - assets/ml/quality_config.json
+    - .env
+    - assets/test/selftest_apple.jpg
+    - assets/images/product_placeholder.png
+    - assets/ml/model_summary.json
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+
+# Konfigurasi ikon launcher
+flutter_launcher_icons:
+  android: true
+  # kalau juga iOS: ios: true
+  image_path: assets/icons/app_icon.png
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: assets/icons/app_icon.png
+  min_sdk_android: 21
+
+# Konfigurasi splash screen (ROOT level, bukan di dev_dependencies)
+# Menggunakan app_icon.png agar tidak error file tidak ditemukan.
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/icons/app_icon.png
+  android: true
+  android_12:
+    color: "#FFFFFF"
+    image: assets/icons/app_icon.png
+  fullscreen: true
