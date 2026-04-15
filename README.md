@@ -58,13 +58,9 @@
 
 ## 📱 App Previews (UI Showcase)
 
-
-## 📱 App Previews (UI Showcase)
-
 | Buyer Dashboard | AI Scanner Mode | AI Analysis Detail | Seller Dashboard |
 |:---:|:---:|:---:|:---:|
-| <img src="https://github.com/user-attachments/assets/ba537116-dce0-4e04-bdcb-82c93e22e6c8" width="200"/> | <img src="https://github.com/user-attachments/assets/0ee100f0-ef1b-4892-82bc-ab5dfec784df" width="200"/> | <img src="https://github.com/user-attachments/assets/24e36cd4-dc62-4829-be03-90c36a189a60" width="200"/> | <img src="https://github.com/user-attachments/assets/10b698fe-1f86-4ed4-91b2-e5e84f2145a5" width="200"/> |
-
+| <img src="https://github.com/user-attachments/assets/ba537116-dce0-4e04-bdcb-82c93e22e6c8" width="200"/> | <img src="https://github.com/user-attachments/assets/0ee100f0-ef1b-4892-82bc-ab5dfec784df" width="200"/> | <img src="https://github.com/user-attachments/assets/10b698fe-1f86-4ed4-91b2-e5e84f2145a5" width="200"/> | <img src="https://github.com/user-attachments/assets/24e36cd4-dc62-4829-be03-90c36a189a60" width="200"/> |
 ---
 
 ## 🏗️ Project Structure Highlights
