@@ -59,9 +59,11 @@
 ## 📱 App Previews (UI Showcase)
 
 
+## 📱 App Previews (UI Showcase)
+
 | Buyer Dashboard | AI Scanner Mode | Big Data Analytics | Seller Dashboard |
 |:---:|:---:|:---:|:---:|
-| <img src="https://placehold.co/200x400/eeeeee/999999?text=Buyer+UI" width="200"/> | <img src="https://placehold.co/200x400/eeeeee/999999?text=AI+Scan+UI" width="200"/> | <img src="https://placehold.co/200x400/eeeeee/999999?text=Data+Viz" width="200"/> | <img src="https://placehold.co/200x400/eeeeee/999999?text=Seller+UI" width="200"/> |
+| <img src="assets/buyer_dashboard.jpeg" width="200"/> | <img src="assets/ai_scanner_mode.jpeg" width="200"/> | <img src="assets/big_data_analytics.jpeg" width="200"/> | <img src="assets/seller_dashboard.jpeg" width="200"/> |
 
 ---
 
