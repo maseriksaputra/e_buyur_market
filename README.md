@@ -93,7 +93,7 @@ Installation
 Clone the repository:
 
 Bash
-git clone [https://github.com/YourUsername/e-buyur-market-frontend.git](https://github.com/YourUsername/e-buyur-market-frontend.git)
+git clone [https://github.com/maseriksaputra/e-buyur-market-frontend.git](https://github.com/maseriksaputra/e-buyur-market-frontend.git)
 cd e-buyur-market-frontend
 Setup Environment Variables:
 Create a .env file in the root directory and add your mock API URLs:
@@ -118,9 +118,7 @@ I specialize in building intelligent applications combining modern web/mobile fr
 📫 Connect with me:
 
 LinkedIn
+https://www.linkedin.com/in/erika-dwi-saputra-811403262/
 
-Upwork
-
-Portfolio/Website
 
 Built with passion and ☕ in Grobogan, Central Java.
